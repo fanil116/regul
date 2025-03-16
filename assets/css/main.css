@@ -48,9 +48,16 @@ body {
 .cards__select .v-field__outline__start, .cards__select .v-field__outline__end {
     border-color: #dbdbdb!important;
 }
+.v-list-item--active .v-list-item__overlay {
+    background-color: transparent !important; /* Убираем фон у выбранного элемента */
+}
 
 .cards__price-text {
     font-size: 11px;
+}
+.cards__disabled {
+    font-size: 13px;
+    padding-top: 24px!important;
 }
 
 .text--temple-gray {

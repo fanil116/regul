@@ -13,7 +13,7 @@
             rounded="lg"
         >
             <template v-slot:item="{ props, item }">
-                <v-list-item v-bind="props" :disabled="item.raw.disabled" :title="undefined" :class="{ 'card--disabled': item.raw.disabled }">
+                <v-list-item v-bind="props" :disabled="item.raw.disabled" :title="undefined">
                     <template v-slot:append>
                         <v-icon color="#337566" v-if="selected === item.raw.id" icon="mdi-check"></v-icon>
                     </template>
